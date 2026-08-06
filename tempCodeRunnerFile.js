@@ -1,8 +1,7 @@
-if(!char){
-    //     char=str[i]++
-    //     console.log(char[i])
+    // for(let i=0;i<arr1.length;i++){
+    //     arr3[arr3.length]=arr1[i]
     // }
-    // else{
-    //     str[i]+1
-    //     console.log(char[i])
+
+    // for(let i=0;i<arr2.length;i++){
+    //     arr3[arr3.length]=arr2[i]
     // }

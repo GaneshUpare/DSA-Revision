@@ -3,13 +3,17 @@
 const arr = [1, 2, 3, 4, 5];
 const k = 2;
 
-
-for(let i=0;i<(arr.length)/2;i++){
-    for(j=arr.length-1;j>k;j--){
+let n=Math.floor(arr.length/k)
+ let j=k
+console.log(arr.length-k)
+for(let i=0;i<n;i++){
+   
         let temp=arr[i]
-        arr[i]=arr[j]
-        arr[j]=temp
-    }
+        arr[i]=arr[j+1]
+        arr[j+1]=temp
+        j++
+        console.log(j)
+
 }
 
 console.log(arr)
