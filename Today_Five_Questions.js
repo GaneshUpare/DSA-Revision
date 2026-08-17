@@ -75,3 +75,17 @@
 // }
 
 // console.log(arr)
+
+let str = "ggggganeshhhhh";
+
+let freq = {};
+
+for (let i of str) {
+  if (!freq[i]) {
+    freq[i] = 1;
+  } else {
+    freq[i]++;
+  }
+}
+
+console.log(freq);
